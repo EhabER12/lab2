@@ -9,3 +9,10 @@ git stach
 git checkout branchName
 if you want to reverse the changes use
 git stash pop
+4- to list tags we use the command
+git tag
+5- to remove tag from local repo we use command
+git tag -d v1.7
+6-
+to remove tag from remote repo we use command 
+git push origin --delete v1.7
